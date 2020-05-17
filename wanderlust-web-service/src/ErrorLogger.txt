@@ -1,0 +1,95 @@
+ValidationError: BookingsInit validation failed: date: Cast to date failed for value "17-05-2020" at path "date"
+    at new ValidationError (F:\MVSC\BookingPage App\wanderlust-web-service\node_modules\mongoose\lib\error\validation.js:31:11)
+    at model.Document.invalidate (F:\MVSC\BookingPage App\wanderlust-web-service\node_modules\mongoose\lib\document.js:2563:32)
+    at model.$set (F:\MVSC\BookingPage App\wanderlust-web-service\node_modules\mongoose\lib\document.js:1238:12)
+    at model._handleIndex (F:\MVSC\BookingPage App\wanderlust-web-service\node_modules\mongoose\lib\document.js:978:14)
+    at model.$set (F:\MVSC\BookingPage App\wanderlust-web-service\node_modules\mongoose\lib\document.js:919:22)
+    at model.Document (F:\MVSC\BookingPage App\wanderlust-web-service\node_modules\mongoose\lib\document.js:136:12)
+    at model.Model (F:\MVSC\BookingPage App\wanderlust-web-service\node_modules\mongoose\lib\model.js:105:12)
+    at new model (F:\MVSC\BookingPage App\wanderlust-web-service\node_modules\mongoose\lib\model.js:4708:15)
+    at Array.<anonymous> (F:\MVSC\BookingPage App\wanderlust-web-service\node_modules\mongoose\lib\model.js:3315:17)
+    at _start (F:\MVSC\BookingPage App\wanderlust-web-service\node_modules\mongoose\lib\helpers\parallelLimit.js:27:37)
+    at parallelLimit (F:\MVSC\BookingPage App\wanderlust-web-service\node_modules\mongoose\lib\helpers\parallelLimit.js:23:5)
+    at Function.Model.$__insertMany (F:\MVSC\BookingPage App\wanderlust-web-service\node_modules\mongoose\lib\model.js:3345:3)
+    at F:\MVSC\BookingPage App\wanderlust-web-service\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+TypeError: i.substring is not a function
+    at F:\MVSC\BookingPage App\wanderlust-web-service\src\service\Booking.js:18:38
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: i.substring is not a function
+    at F:\MVSC\BookingPage App\wanderlust-web-service\src\service\Booking.js:18:38
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: i.substring is not a function
+    at F:\MVSC\BookingPage App\wanderlust-web-service\src\service\Booking.js:18:38
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: Cannot read property 'then' of undefined
+    at F:\MVSC\BookingPage App\wanderlust-web-service\src\routes\bookRouter.js:12:44
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: str.substring is not a function
+    at F:\MVSC\BookingPage App\wanderlust-web-service\src\service\Booking.js:17:43
+    at Array.map (<anonymous>)
+    at F:\MVSC\BookingPage App\wanderlust-web-service\src\service\Booking.js:17:27
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: str.substring is not a function
+    at F:\MVSC\BookingPage App\wanderlust-web-service\src\service\Booking.js:18:43
+    at Array.map (<anonymous>)
+    at F:\MVSC\BookingPage App\wanderlust-web-service\src\service\Booking.js:18:27
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: Cannot read property 'then' of undefined
+    at F:\MVSC\BookingPage App\wanderlust-web-service\src\routes\bookRouter.js:12:44
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: Cannot read property 'then' of undefined
+    at F:\MVSC\BookingPage App\wanderlust-web-service\src\routes\bookRouter.js:12:44
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: Cannot read property 'then' of undefined
+    at F:\MVSC\BookingPage App\wanderlust-web-service\src\routes\bookRouter.js:12:44
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+SyntaxError: Unexpected number in JSON at position 36
+    at JSON.parse (<anonymous>)
+    at parse (F:\MVSC\BookingPage App\wanderlust-web-service\node_modules\body-parser\lib\types\json.js:89:19)
+    at F:\MVSC\BookingPage App\wanderlust-web-service\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (F:\MVSC\BookingPage App\wanderlust-web-service\node_modules\raw-body\index.js:224:16)
+    at done (F:\MVSC\BookingPage App\wanderlust-web-service\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (F:\MVSC\BookingPage App\wanderlust-web-service\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:323:22)
+    at endReadableNT (_stream_readable.js:1204:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+TypeError: Cannot read property 'then' of undefined
+    at F:\MVSC\BookingPage App\wanderlust-web-service\src\routes\bookRouter.js:12:44
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: Cannot read property 'then' of undefined
+    at F:\MVSC\BookingPage App\wanderlust-web-service\src\routes\bookRouter.js:12:44
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: Cannot read property 'then' of undefined
+    at F:\MVSC\BookingPage App\wanderlust-web-service\src\routes\bookRouter.js:12:44
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: Cannot read property 'then' of undefined
+    at F:\MVSC\BookingPage App\wanderlust-web-service\src\routes\bookRouter.js:12:44
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: Cannot read property 'then' of undefined
+    at F:\MVSC\BookingPage App\wanderlust-web-service\src\routes\bookRouter.js:12:44
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: Cannot read property 'then' of undefined
+    at F:\MVSC\BookingPage App\wanderlust-web-service\src\routes\bookRouter.js:12:44
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: Cannot read property 'then' of undefined
+    at F:\MVSC\BookingPage App\wanderlust-web-service\src\routes\bookRouter.js:12:44
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: Cannot read property 'then' of undefined
+    at F:\MVSC\BookingPage App\wanderlust-web-service\src\routes\bookRouter.js:12:45
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: Cannot read property 'then' of undefined
+    at F:\MVSC\BookingPage App\wanderlust-web-service\src\routes\bookRouter.js:12:45
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: Cannot read property 'then' of undefined
+    at F:\MVSC\BookingPage App\wanderlust-web-service\src\routes\bookRouter.js:12:45
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: Cannot read property 'then' of undefined
+    at F:\MVSC\BookingPage App\wanderlust-web-service\src\routes\bookRouter.js:12:45
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: Cannot read property 'then' of undefined
+    at F:\MVSC\BookingPage App\wanderlust-web-service\src\routes\bookRouter.js:12:45
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+TypeError: Cannot read property 'then' of undefined
+    at F:\MVSC\BookingPage App\wanderlust-web-service\src\routes\bookRouter.js:13:45
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
